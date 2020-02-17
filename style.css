@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+}
+header{
+    background-color: #4A4A4A;
+    display: flex;
+    justify-content: space-between;
+    color:#f2f2f2;
+   
+}
+.name h1{
+    border-bottom: solid 3px #F7DE33;
+}
+.wrapper{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;}
+nav{
+    /*height: 120px;*/
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+   /*height: 120px; */
+}
+nav ul li{
+    color:#f2f2f2;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    font-size: 18px;
+    background-color: #4A4A4A;
+    padding: 49px 30px;
+    
+}
+nav ul li ul{
+    position: absolute;
+    display: none;    
+}
+nav ul li ul li a {
+    display: block;
+    font-size: 18px; 
+    
+}
+nav ul li:hover ul {
+    display: block;
+    color: #f39200;
+    padding: 0px;
+    top:120px;
+    background-color: #666;
+}
+.grid-container{
+    width: 960px;
+   display: grid;
+   grid-template-columns: 320px 320px 320px; 
+   grid-template-rows: 1fr 1fr 1fr;
+   margin: auto;
+   background-color: #F7DE33;
+   text-align: center;
+   justify-content: space-between;  
+}
+li a:link,
+li a:visited {
+	text-decoration:none;
+    color:#f2f2f2;	
+}
+li a:hover {
+    color:#f2f2f2;
+	text-decoration:none;
+    color:#f39200;
+    background-color:#666 ; 
+    
+}
+li a:active {
+    color:#f2f2f2;   
+} 
+.item img {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+     vertical-align:bottom;
+    max-width:100%;
+    border-radius: 15px;
+    }
+.item a:link,
+.item a:visited {
+color:#4A4A4A;
+}
+.item a:hover {
+	text-decoration:none;
+    color:#f39200;
+    opacity: 0.7;  
+}
+.item a:active {
+	color:#4A4A4A;
+}
+footer{
+    background-color:#4A4A4A ;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.item{
+    padding: 5px;
+}
+.item h2{
+    margin-top: 0px;
+}
+.pages{
+    width:960px;
+    margin: auto;    
+    
+}
+.products{
+    border: solid red 1px;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
